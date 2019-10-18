@@ -1,0 +1,16 @@
+{
+  "name": "sendAcryl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "send": "tsc testnet.ts && node testnet.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@acryl/acryl-transactions": "^3.16.5",
+    "@types/node": "^12.7.3"
+  }
+}
